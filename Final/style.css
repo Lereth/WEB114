@@ -1,0 +1,84 @@
+body {
+    background-color: #F5EFE6;
+    color: #4B3832;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #8B5E3B;
+    color: white;
+    padding: 20px;
+}
+
+/* Main section spacing */
+main {
+    padding: 30px;
+}
+
+/* Calculator container */
+.calculator {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #D4A373;
+}
+
+/* Calculator display */
+#display {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+    border: 2px solid #8B5E3B;
+    border-radius: 5px;
+    color: #4B3832;
+}
+
+
+.button-row {
+    margin-bottom: 10px;
+}
+
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #D4A373;
+    color: white;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #8B5E3B;
+}
+
+/* Equals button */
+#equals {
+    background-color: #6B8E23;
+}
+
+
+#clear {
+    background-color: #B22222;
+}
+
+
+footer {
+    background-color: #8B5E3B;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
